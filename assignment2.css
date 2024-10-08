@@ -3,7 +3,7 @@
     gap:10px;
 }
 header{
-    margin:0px 80px;
+    margin:0px 166px;
     padding:0px auto;
 }
  .span{
@@ -23,4 +23,61 @@ ul{
     display:flex;
     align-items: center;
     justify-content: space-between;
+}
+.background-container{
+    display:flex;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    background-image: url(B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    /* background-color: rgb(0, 0,0,0.7); */
+    /* opacity:1; */
+    height:400px;
+    width:100%;
+    
+}
+.h1{
+    color:white;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p1{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-header{
+    display:flex;
+    gap:20px;
+background-color:grey;
+box-shadow: 10px;
+padding:20px 30px;
+
+}
+.button{
+    padding:10px 30px;
+    border:0px;
+
+}
+.button1{
+    padding:10px 30px;
+    background-color: orangered;
+    border:0px;
+    color:white;
+}
+main{
+    margin:0px 166px;
+    padding:0px auto;
+}
+.popular-tour-container{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap:30px;
+}
+.button-2{
+    color:white;
+    padding:10px 30px;
+    background-color: orangered;
+    border:0px;
 }
