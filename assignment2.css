@@ -1,83 +1,179 @@
-.hero-travel{
-    display:flex;
-    gap:10px;
+.hero-travel {
+  display: flex;
+  gap: 10px;
 }
-header{
-    margin:0px 166px;
-    padding:0px auto;
+header {
+  margin: 0px 166px;
+  padding: 0px auto;
 }
- .span{
-    color:red;
+.span {
+  color: red;
 }
-li a{
-    text-decoration: none;
+li a {
+  text-decoration: none;
 }
-ul li{
-    list-style: none;
+ul li {
+  list-style: none;
 }
-ul{
-    display:flex;
-    gap:20px;
+ul {
+  display: flex;
+  gap: 20px;
 }
-.header-nav{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.background-container{
-    display:flex;
-    text-align:center;
-    align-items: center;
-    justify-content: center;
-    background-image: url(B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png);
-    background-repeat: no-repeat;
-    /* background-color: rgb(0, 0,0,0.7); */
-    /* opacity:1; */
-    height:400px;
-    width:100%;
-    
+.background-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-image: url(B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png);
+  background-repeat: no-repeat;
+  /* background-color: rgb(0, 0,0,0.7); */
+  /* opacity:1; */
+  height: 400px;
+  width: 100%;
 }
-.h1{
-    color:white;
-    font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
+.h1 {
+  color: white;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.p1{
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
+.p1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.nav-header{
-    display:flex;
-    gap:20px;
-background-color:grey;
-box-shadow: 10px;
-padding:20px 30px;
+.nav-header {
+  display: flex;
+  gap: 20px;
+  background-color: grey;
+  box-shadow: 10px;
+  padding: 20px 30px;
+}
+.button {
+  padding: 10px 30px;
+  border: 0px;
+}
+.button1 {
+  padding: 10px 30px;
+  background-color: orangered;
+  border: 0px;
+  color: white;
+}
+main {
+  margin: 0px 166px;
+  padding: 0px auto;
+}
+.popular-tour-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 30px;
+}
+.button-2 {
+  color: white;
+  padding: 10px 30px;
+  background-color: orangered;
+  border: 0px;
+}
+.text-h1,
+.paragraph-p {
+  text-align: center;
+}
+.first-container {
+  position: relative;
+  display: flex;
+  gap: 5px;
+  justify-content: space-evenly;
+}
+.first-container img {
+  height: 400px;
+  width: 100%;
+}
+.maldives-img {
+  position: relative;
+}
+
+.maldives-img h1 {
+  text-align: center;
+  position: absolute;
+  bottom: 170px;
+  right: 240px;
+  color: white;
+}
+.indonesia-img {
+  position: relative;
+}
+.indonesia-img h1 {
+  text-align: center;
+  position: absolute;
+  bottom: 170px;
+  right: 240px;
+  color: white;
+}
+.second-row-container {
+ display:flex;
+  justify-content: space-evenly;
+}
+
+.srilanka-img {
+  position: relative;
+}
+
+.srilanka-img h1 {
+  text-align: center;
+  position: absolute;
+  color: white;
+  bottom: 100px;
+  right: 140px;
+}
+.north-america-img{
+  position:relative;
+}
+.north-america-img h1{
+  position:absolute;
+  text-align: center;
+  color: white;
+  bottom: 100px;
+  right: 140px;
 
 }
-.button{
-    padding:10px 30px;
-    border:0px;
-
+.kashmir-img{
+  position:relative;
 }
-.button1{
-    padding:10px 30px;
-    background-color: orangered;
-    border:0px;
-    color:white;
+.kashmir-img h1{
+  position: absolute;
+  text-align: center;
+  color: white;
+  bottom: 100px;
+  right: 107px;
 }
-main{
-    margin:0px 166px;
-    padding:0px auto;
+.third-row-container{
+  display:flex;
+  justify-content: space-evenly;
 }
-.popular-tour-container{
-    display:flex;
-    justify-content: space-between;
+    .bangladesh-img{
+      position:relative;
+    }
+    .bangladesh-img h1{
+      text-align: center;
+      position: absolute;
+      color: white;
+      bottom: 100px;
+      right: 178px;
+    }
+  .bandarban-img{
+    position: relative;
+  }
+  .bandarban-img h1{
+    text-align: center;
+    position: absolute;
+    color: white;
+    bottom: 100px;
+    left: 280px;
+  }
+  .section-cntainer{
     margin-top: 50px;
-    gap:30px;
-}
-.button-2{
-    color:white;
-    padding:10px 30px;
-    background-color: orangered;
-    border:0px;
-}
+  }
