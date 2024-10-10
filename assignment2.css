@@ -269,7 +269,7 @@ nav li {
 }
 .simple-container {
   display: flex;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 .simple-video video {
   height: 300px;
@@ -280,7 +280,7 @@ p {
 .last-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 .newsletter-container {
   align-items: center;
@@ -312,8 +312,34 @@ p {
   position: relative;
 }
 .form input {
-  width: 70%;
+  width: 83%;
+    
 }
 .newsletter-container {
   border: 2px solid red;
+}
+.hero-trave2{
+  display:flex;
+  gap:5px;
+  justify-content: center;
+}
+.header-paragraph{
+  text-align: center;
+  align-items: center;
+  color:white;
+}
+.social-icon{
+  display:flex;
+  gap:20px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-container hr{
+  width: 80%;
+  margin-top: 35px;
+}
+.footer-container{
+  margin-top: 80px;
+  background-color:gray;
+  padding:50px 80px;
 }
