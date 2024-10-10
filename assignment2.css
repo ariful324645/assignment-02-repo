@@ -214,3 +214,55 @@ main {
   padding:0px 200px;
 
 }
+.deals,.discount-paragraph{
+  text-align: center;
+}
+nav{
+  display:flex;
+  gap:20px;
+  
+}
+
+nav li{
+  list-style: none;
+}
+.tour-satorini-text{ 
+  position:absolute;
+  top:120px;
+  right: 50px;
+  width:40%;
+  border-radius: 20px;
+  background-color:#e2d5e3;
+  padding:10px 30px;
+  
+}
+.tour-img-container{
+  position:relative;
+  margin-top: 30px;
+}
+.tour1-satorini-text{
+  position: absolute;
+  width:40%;
+  background-color:#e2d5e3;
+  padding:10px 30px;
+  border-radius: 10px;
+  bottom:80px;
+  left: 20px;
+  border-radius: 20px;
+}
+.oposite-banana-img{
+  margin-top: 30px;
+}
+.button-package{
+  margin-top: 30px;
+  background-color: orangered;
+  padding:10px 30px;
+  border:0px;
+
+}
+.button-package-container{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
