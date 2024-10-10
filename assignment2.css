@@ -29,10 +29,11 @@ ul {
   text-align: center;
   align-items: center;
   justify-content: center;
-  background-image: url(B9A2-Hero-Travel/Images/Group\13\\(1\)\\(1\).png);
+  background-image: url(B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png);
   background-repeat: no-repeat;
   height: 400px;
   width: 100%;
+  margin-top: 30px;
 }
 .h1 {
   color: white;
@@ -67,7 +68,7 @@ main {
 .popular-tour-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 80px;
   gap: 30px;
 }
 .button-2 {
@@ -79,6 +80,9 @@ main {
 .text-h1,
 .paragraph-p {
   text-align: center;
+}
+.section-cntainer{
+  margin-top: 80px;
 }
 .first-container {
   position: relative;
@@ -115,7 +119,9 @@ main {
   display: flex;
   justify-content: space-evenly;
 }
-
+.section-deals{
+  margin-top: 50px;
+}
 .srilanka-img {
   position: relative;
 }
@@ -235,17 +241,17 @@ nav li {
   position: relative;
   margin-top: 30px;
 }
-.tour1-satorini-text{
-  position:absolute;
-  padding:10px 30px;
-  width:40%;
-  left:30px;
-bottom:120px;
-background-color: #e2d5e3;
-border-radius: 20px;
+.tour1-satorini-text {
+  position: absolute;
+  padding: 10px 30px;
+  width: 40%;
+  left: 30px;
+  bottom: 120px;
+  background-color: #e2d5e3;
+  border-radius: 20px;
 }
-.oposite-banana-img{
-  position:relative;
+.oposite-banana-img {
+  position: relative;
 }
 .oposite-banana-img {
   margin-top: 30px;
@@ -260,4 +266,54 @@ border-radius: 20px;
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+.simple-container {
+  display: flex;
+  margin-top: 30px;
+}
+.simple-video video {
+  height: 300px;
+}
+p {
+  color: gray;
+}
+.last-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.newsletter-container {
+  align-items: center;
+  justify-content: center;
+  padding: 10px 50px;
+  border: 0px;
+}
+.travel-container img {
+  height: 300px;
+}
+.newsletter-container hr {
+  width: 70%;
+}
+.button-subscribe {
+  background-color: red;
+  padding: 10px 60px;
+  border: 0px;
+}
+.button-travel {
+  position: absolute;
+  bottom: 70px;
+  right: 1px;
+  background-color: orange;
+  border: 0px;
+  padding: 0px 40px;
+  transform: rotate(-45deg);
+}
+.travel-container {
+  position: relative;
+}
+.form input {
+  width: 70%;
+}
+.newsletter-container {
+  border: 2px solid red;
 }
