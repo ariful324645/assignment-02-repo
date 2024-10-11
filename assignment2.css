@@ -81,7 +81,7 @@ main {
 .paragraph-p {
   text-align: center;
 }
-.section-cntainer{
+.section-cntainer {
   margin-top: 80px;
 }
 .first-container {
@@ -119,7 +119,7 @@ main {
   display: flex;
   justify-content: space-evenly;
 }
-.section-deals{
+.section-deals {
   margin-top: 50px;
 }
 .srilanka-img {
@@ -313,33 +313,48 @@ p {
 }
 .form input {
   width: 83%;
-    
 }
 .newsletter-container {
   border: 2px solid red;
 }
-.hero-trave2{
-  display:flex;
-  gap:5px;
+.hero-trave2 {
+  display: flex;
+  gap: 5px;
   justify-content: center;
 }
-.header-paragraph{
+.header-paragraph {
   text-align: center;
   align-items: center;
-  color:white;
+  color: white;
 }
-.social-icon{
-  display:flex;
-  gap:20px;
+.social-icon {
+  display: flex;
+  gap: 20px;
   align-items: center;
   justify-content: center;
 }
-.footer-container hr{
+.footer-container hr {
   width: 80%;
   margin-top: 35px;
 }
-.footer-container{
+.footer-container {
   margin-top: 80px;
-  background-color:gray;
-  padding:50px 80px;
+  background-color: gray;
+  padding: 50px 80px;
+}
+
+@media screen and (max-width: 668 px) {
+  header {
+    margin: 0px 100px;
+    padding: 0px auto;
+  }
+  .hero-travel,.header-nav,ul{
+    flex-direction: column;
+  }
+  .background-container {
+    flex-direction:column;
+    height: 10%;
+    width: 75%;
+  
+  }
 }
